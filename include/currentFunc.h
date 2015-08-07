@@ -9,3 +9,4 @@
 #endif
 
 #define __currentfunc__ __func__
+#define FUNC_PREFIX __func__

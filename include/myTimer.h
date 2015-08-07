@@ -20,6 +20,10 @@ class myTimer{
             addElapsedTime();
         }
 
+        void reset(){
+            msec = 0.0f;
+        }
+
         void addElapsedTime(){
             msec += ((double)stop.tv_sec * 1.e3 + (double)stop.tv_usec * 1.e-3)
                     - ((double)start.tv_sec * 1.e3 + (double)start.tv_usec * 1.e-3);
