@@ -1,3 +1,7 @@
+/*
+ * Macros to return the name of the current function being executed.
+ */
+
 #include <iostream>
 
 #if __STDC_VERSION__ < 199901L
