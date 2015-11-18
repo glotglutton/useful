@@ -1,3 +1,12 @@
+/*
+ * Timer class:
+ * 	tic() sets start
+ *  toc() sets stop and adds the difference to elapsed time
+ *  reset().. self explanatory
+ *  getElapsedTime() returns time in msec
+ *
+ */
+
 #include <iostream>
 #include <sys/time.h>
 
